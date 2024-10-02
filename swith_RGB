@@ -1,0 +1,40 @@
+const int BTN_RED = 4;
+const int BTN_GREEN = 5;
+const int BTN_BLUE = 6;
+
+const int red = 9;
+const int green = 10;
+const int blue = 11;
+
+bool is_red_on = false;
+bool is_green_on = false;
+bool is_blue_on = false;
+
+void setup() {
+  pinMode(BTN_RED, INPUT);
+  pinMode(BTN_GREEN, INPUT);
+  pinMode(BTN_BLUE, INPUT);
+  
+  pinMode(red, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(blue, OUTPUT);
+}
+
+void loop() {
+  change_stat(BTN_RED, red, &is_red_on);
+  change_stat(BTN_GREEN, green, &is_green_on);
+  change_stat(BTN_BLUE, blue, &is_blue_on);
+  delay(5);
+}
+
+void change_stat(int btn_pin, int led_pin, bool* status) {
+  if (digitalRead(btn_pin) == LOW) {
+    *status = !(*status);
+    if (*status) {
+      digitalWrite(led_pin, HIGH);
+    } else {
+      digitalWrite(led_pin, LOW);
+    }
+    delay(300);
+  }
+}
