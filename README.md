@@ -24,7 +24,7 @@
 ## Website
 
 ## Project Demo Video
-[![Project Demo Video](https://img.youtube.com/vi/JoBmouosOzM/0.jpg)](https://youtu.be/JoBmouosOzM)
+--> [![Project Demo Video](https://img.youtube.com/vi/JoBmouosOzM/0.jpg)](https://youtu.be/JoBmouosOzM)
 
 
 ## Contributers
