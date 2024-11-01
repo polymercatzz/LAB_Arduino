@@ -11,14 +11,13 @@
 
 ## Library ที่ใช้งาน
 ```c++
-#include
-  -OneWire
-  -Servo
-  -DallasTemperature
-  -WiFiS3
-  -WiFiClient
-  -NTPClient
-  -WiFiUdp
+#include <OneWire.h>
+#include <Servo.h>
+#include <DallasTemperature.h>
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include <NTPClient.h>
+#include <WiFiUdp.h>
 ```
 
 ## Website
