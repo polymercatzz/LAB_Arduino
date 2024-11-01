@@ -25,7 +25,8 @@
 ## Project Demo Video
 --> [![Project Demo Video](https://img.youtube.com/vi/JoBmouosOzM/0.jpg)](https://youtu.be/JoBmouosOzM)
 
-
+## Poster
+[poster](poster.pdf)
 ## Contributers
 * นายปณวัฒน์ ธรรมเจริญ 66070113
 * นายสรวิชญ์ กาญจนสันติศักดิ์ 66070199
